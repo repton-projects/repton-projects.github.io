@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description"
-    content="Welcome to Repton Projects - All aspects of Project Management in one complete solution">
-  <meta name="author" content="Repton Projects">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to Repton Projects - All aspects of Project Management in one complete solution">
+    <meta name="author" content="Repton Projects">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <title>Welcome to Repton Projects</title>
+    <title>Welcome to Repton Projects</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
-  <link rel="stylesheet" href="assets/css/animated.css">
-  <link rel="stylesheet" href="assets/css/owl.css">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
 
   <style>
+    .scrollable-snap {
+        height: 100vh; /* Adjust the height as needed */
+        overflow-y: auto;
+        scroll-snap-type: y mandatory; /* Enable vertical snapping */
+        /* Hiding the scrollbar but allowing scrolling */
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    }
+    .snap-section {
+        height: 100vh; /* Each section takes full height of the viewport */
+        scroll-snap-align: start; /* Snap to the start of the section */
+    }
 
-    .nav {
+    .scrollable-snap::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Opera */
+    }
+    
+    .nav { 
       float: left !important;
     }
 
@@ -35,62 +49,30 @@
     }
 
     .bullet-list li::before {
-      content: "\2713";
-      color: #28a745;
+      content: "\2713"; /* Green checkmark unicode character */
+      color: #28a745; /* Green color */
       font-size: 1.2em;
       margin-right: 0.5em;
     }
 
     .section {
-      min-height: 100vh;
-      display: flex;
-      position: relative;
-      width: 100%;
+        min-height: 100vh;
+        display: flex; 
     }
 
-    .top-section {
-      position: absolute;
+    .section-alt{
+      background-color:#f6f6f6;
     }
 
-    .bottom-section {
-      position: fixed;
-      z-index: 1;
-    }
+    .fixed-image {
+  position: relative; /* Ensure it still respects the layout */
+}
 
-    #main-image {
-      border-radius: 10px;
-      max-width: 100%;
-      height: auto;
-    }
 
-    .content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
 
-    }
-
-    @media (max-width: 767px) {
-      #main-image {
-        display: none;
-      }
-    }
-
-    .main-container {
-      position: relative;
-    }
-
-    .main-container section:nth-child(odd) {
-      background-color: #f6f6f6;
-    }
-
-    .learn-more {
-      text-align:right;
-    }
   </style>
 
-</head>
+  </head>
 
 <body>
 
@@ -109,7 +91,7 @@
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
+    <div class="container" >
       <div class="row">
         <div class="col-lg-12">
           <nav class="main-nav">
@@ -134,14 +116,12 @@
               <li class="scroll-to-section"><a href="features.html">Explore Features</a></li>
               <li class="scroll-to-section"><a href="#services">Pricing</a></li>
               <li class="scroll-to-section"><a href="#portfolio">Request a Demo</a></li>
-              <li class="scroll-to-section"><a href="#blog">Take the Tour</a></li>
-              <li class="scroll-to-section"><a href="#contact">FAQs</a></li>
-              <li class="scroll-to-section">
-                <div class="main-red-button"><a href="#contact">Start Free Trial</a></div>
-              </li>
+              <li class="scroll-to-section"><a href="#blog">Take the Tour</a></li> 
+              <li class="scroll-to-section"><a href="#contact">FAQs</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Start Free Trial</a></div></li> 
             </ul>
             <a class='menu-trigger'>
-              <span>Menu</span>
+                <span>Menu</span>
             </a>
             <!-- ***** Menu End ***** -->
           </nav>
@@ -150,143 +130,90 @@
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-
-  <div class="main-container">
-    <section>
-      <div class="main-banner wow fadeIn section bottom-section" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-lg-6 align-self-center">
-                </div>
-                <div class="col-lg-6 fixed-image" id="right">
-                  <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img id="main-image" src="/assets/images/main.jpg" alt="team meeting" id="fixedImage">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="main-banner wow fadeIn section " data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="container content">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-lg-6 align-self-center ">
-                  <div id="content1" data-wow-duration="1s" data-wow-delay="1s">
-                    <h1>Welcome to Repton Projects</h1>
-                    <div class="mt-5 mb-3">
-                      <p>An independent Project Management company with a difference, offering client-driven Software
-                        Solutions, Consultancy, and Training based on ‘only doing the things that add real value’.</p>
+  <!-- <div class="col-lg-6 fixed-image">
+    <img src="/assets/images/main.jpg" alt="team meeting" class="fixed-image">
+  </div> -->
+  <section>
+    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <div class="scrollable-snap">
+                    <div id="content1" class="snap-section" data-wow-duration="1s" data-wow-delay="1s">
+                        <h2>Welcome to Repton Projects</h2>
+                        <p>An independent Project Management company with a difference, offering client driven Software Solutions, Consultancy and Training based on ‘only doing the things that add real value’.</p>
+                        <div class="row">
+                            <div class="mt-3 main-red-button"><a href="#contact">Book a free consultation</a></div>
+                        </div>
                     </div>
-
-
-                    <div class="row">
-                      <div class="mt-3 main-red-button"><a href="#contact">Book a free consultation</a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 fixed-image" id="right">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section>
-      <div class="main-banner wow fadeIn section  " data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="container content">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="row ">
-                <div class="col-lg-6 align-self-center ">
-                  <div data-wow-duration="1s" data-wow-delay="1s">
-                    <h1>Our Services</h1>
-                    <div class="mt-5 mb-3">
-                      <p><b>Software Solutions</b></p>
-                      <p>Project on Demand is a simple to use integrated practical project management solution which
-                        allows the you to effectively and efficiently manage projects within any organisation from a
-                        single toolset.</p>
-                      <div class="learn-more main-red-button mt-3"><a href="#">Learn More</a></div>
-                      <p><b>Consultancy</b></p>
-                      <p>As well as Project Management Consultancy we can help you with Business Process Engineering,
-                        Requirement Gathering Techniques, PMO, Project Rescue and Mentoring.
+    
+                    <div id="content2" class="snap-section" data-wow-duration="1s" data-wow-delay="1s">
+                      <!-- <h6>Welcome to Space Dynamic</h6> -->
+                      <h2>Our Services</h2>
+                      <p>Software Solutions</p>
+                      <p>Project on Demand is a simple to use integrated practical project management solution which allows the you to effectively and efficiently manage projects within any organisation from a single toolset.</p>                
+      
+                      <p>Consultancy</p>
+                      <p>As well as Project Management Consultancy we can help you with Business Process Engineering, Requirement Gathering Techniques, PMO,  Project Rescue and Mentoring.
                       </p>
-                      <div class="learn-more main-red-button mt-3"><a href="#">Learn More</a></div>
-                      <p><b>Training</b></p>
-                      <p>All our Project Management Training courses focus on real life practical project management and
-                        are all designed and delivered by professional Project Managers.
+      
+                      <p>Training</p>
+                      <p>All our Project Management Training courses focus on real life practical project management and are all designed and delivered by professional Project Managers.
                       </p>
-                      <div class="learn-more main-red-button mt-3"><a href="#">Learn More</a></div>
+                    
+                      <div class="row">
+                        <div class="mt-3 main-red-button"><a href="#contact">Book a free consultation</a></div>             
+                      </div>                             
                     </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 fixed-image" id="right">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="main-banner wow fadeIn section  " data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="container content">
-          <div class="row" style="width:100%">
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-lg-6 align-self-center ">
-                  <div data-wow-duration="1s" data-wow-delay="1s">
-                    <h1>Our Core Values</h1>
-                    <div class="mt-5 mb-3">
-                      <p><b>Always add Real Value</b></p>
+    
+                    <div id="content3" class="snap-section" data-wow-duration="1s" data-wow-delay="1s">
+                      <!-- <h6>Welcome to Space Dynamic</h6> -->
+                      <h2>Our Core Values</h2>
+                      <p>Always add Real Value</p>
                       <p>If we cannot add real value to our clients, we will say so.</p>
-                      <br/>
-                      <p><b>Keep it Simple</b></p>
-                      <p>Often the simplest solutions are the best. </p>
-                      <br/>
-                      <p><b>Teamwork</b></p>
-                      <p>Repton Projects and our clients are always one team.</p>
-                      <br/>
-                      <p><b>Continuous Improvement</b></p>
-                      <p>Don't be scared of trying something new.</p>
+      
+                      <p>Keep it Simple                </p>
+                      <p>Often the simplest solutions are the best.  
+                      </p>
+      
+                      <p>Teamwork</p>
+                      <p>Repton Projects and our clients are always one team.
+                      </p>
+      
+                      <p>Continuous Improvement
+                      </p>
+                      <p>Don’t be scared of trying something new.
+                      </p>
+                    
+                      <div class="row">
+                        <div class="mt-3 main-red-button"><a href="#contact">Book a free consultation</a></div>             
+                      </div>                             
                     </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 fixed-image" id="right">
                 </div>
               </div>
-
+              <div class="col-lg-6 fixed-image">
+                <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <img src="assets/images/main.jpg" alt="team meeting" id="fixedImage">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  </div>
-
-
+    </div>
+  </section>
 
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-12" data-wow-duration="1s" data-wow-delay="0.25s">
-          <p>© Copyright 2024 Repton Projects.
+        <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+          <p>© Copyright 2024 Repton Projects. 
         </div>
       </div>
     </div>
   </footer>
-
   <!-- Scripts -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -296,5 +223,4 @@
   <script src="assets/js/templatemo-custom.js"></script>
 
 </body>
-
 </html>
