@@ -1103,7 +1103,7 @@ Portfolio
 }
 
 .our-portfolio .item:hover .showed-content {
-  top: 90px;
+  /* top: 90px; */
 }
 
 .our-portfolio .hidden-content {
