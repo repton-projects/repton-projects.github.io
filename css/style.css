@@ -537,3 +537,11 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+.content-slides-wrap h1 {
+    font-size: 4.25rem;
+}
+
+.content-slides-wrap p {
+    font-size: 1.75rem;
+}
