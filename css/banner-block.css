@@ -1,7 +1,7 @@
 @media print,
 screen and (min-width:64em) {
     .banner-block:not(.scroll-lock) {
-        height: 110vh
+        height: 100vh
     }
 }
 
@@ -152,7 +152,7 @@ screen and (min-width:64em) {
 @media print,
 screen and (min-width:64em) {
     .banner-block .section-inner .left-col .content-slides-wrap .content-item>div {
-        max-width: 31.25rem;
+        max-width: 50rem;
         text-align: left
     }
 }
@@ -224,7 +224,8 @@ screen and (min-width:64em) {
 @media print,
 screen and (min-width:64em) {
     .banner-block.scroll-lock .left-col .content-slides-wrap .content-item {
-        height: 110vh
+        height: 100vh;
+        padding-left: 25%;
     }
 
     .banner-block.scroll-lock .right-col .image-slides-wrap {
