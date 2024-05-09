@@ -591,3 +591,19 @@ a:active {
     font-size: 1.75rem;
     color: #1B2C51;
 }
+
+
+@media print,
+screen and (min-width:64em) {
+    .banner-block.scroll-lock .left-col .content-slides-wrap .content-item {
+        min-height: 110vh;
+        height:100%;
+    }  
+}
+
+@media print, screen and (min-width: 64em) {
+    .banner-block .section-inner .left-col .content-slides-wrap .content-item>div {
+        max-width: 100%; 
+        text-align: left;
+    }
+}
