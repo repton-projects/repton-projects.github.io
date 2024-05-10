@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features Index on Repton Projects</title>
+    <link>http://repton-projects.org/features/</link>
+    <description>Recent content in Features Index on Repton Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 May 2024 14:53:04 +0800</lastBuildDate><atom:link href="http://repton-projects.org/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features Index</title>
+      <link>http://repton-projects.org/features/</link>
+      <pubDate>Wed, 08 May 2024 14:53:04 +0800</pubDate>
+      
+      <guid>http://repton-projects.org/features/</guid>
+      <description>All aspects of Project Management in one placeProject on Demands&#39;s workflow and associated toolkit guides you through your project step by step.
+Projects
+ProjectsCreate, Monitor and control your projects.
+View DetailsStakeholdersCollaborate with your project team.
+View DetailsWorkflow
+DashboardView the current status of your project.
+View DetailsPhase ProgressionGuides you through six project phases.
+View DetailsDocumentsCreate, review &amp; Approve key project documents.</description>
+    </item>
+    
+  </channel>
+</rss>
