@@ -12,9 +12,9 @@ title = 'Repton Projects'
     weight = 1
 
 [[menu.main]]
-    identifier = "why-us"
+    identifier = "why-project-on-demand"
     name = "Why Project on Demand?"
-    url = "/why-us"
+    url = "/why-project-on-demand"
     weight = 2
 
 [[menu.main]]
