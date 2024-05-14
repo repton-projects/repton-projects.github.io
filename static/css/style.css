@@ -693,4 +693,19 @@ screen and (min-width: 64em) {
     }
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+
+.card-body {
+    flex: 1; /* Allows the card body to grow to fill available space */
+}
+
+.card-footer {
+    margin-top: auto;
+    border:0px;
+    background-color:#fff; /* Pushes the footer to the bottom of the card */
+}
