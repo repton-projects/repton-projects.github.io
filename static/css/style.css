@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+********* Template CSS *********
 :root {
     --primary: #0463FA;
     --light: #EFF5FF;
@@ -597,13 +597,100 @@ a:active {
 screen and (min-width:64em) {
     .banner-block.scroll-lock .left-col .content-slides-wrap .content-item {
         min-height: 110vh;
-        height:100%;
-    }  
+        height: 100%;
+    }
 }
 
-@media print, screen and (min-width: 64em) {
+@media print,
+screen and (min-width: 64em) {
     .banner-block .section-inner .left-col .content-slides-wrap .content-item>div {
-        max-width: 100%; 
+        max-width: 100%;
         text-align: left;
     }
 }
+
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+}
+
+.even-section {
+    background-color: #f5f5f5;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-right: auto;
+        /* Ensures the logo stays aligned to the left */
+    }
+
+    .get-started {
+        text-align: center;
+    }
+
+    .content-section {
+        flex-direction: column;
+    }
+
+    .image {
+        order: -1;
+    }
+}
+
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+}
+
+.even-section {
+    background-color: #f5f5f5;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-right: auto;
+        /* Ensures the logo stays aligned to the left */
+    }
+
+    .get-started {
+        text-align: center;
+    }
+
+    .content-section {
+        flex-direction: column;
+    }
+
+    .image {
+        order: -1;
+    }
+}
+
+
