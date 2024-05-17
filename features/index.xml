@@ -23,5 +23,17 @@ View DetailsPhase ProgressionGuides you through six project phases.
 View DetailsDocumentsCreate, review &amp; Approve key project documents.</description>
     </item>
     
+    <item>
+      <title>Projects page</title>
+      <link>http://repton-projects.org/features/projects/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://repton-projects.org/features/projects/projects/</guid>
+      <description>Project ConfigurationOnly do the things that add real value.Quickly set up your projectCreate a new project and assign a start date and you are ready to go.
+Get Started»Manage your teamAssign team members as project stakeholders.
+Get Started»Ensure you are only doing the things that add valueConfigure the required project tasks and documents.
+Get Started»</description>
+    </item>
+    
   </channel>
 </rss>
