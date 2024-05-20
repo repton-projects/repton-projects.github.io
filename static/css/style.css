@@ -712,7 +712,7 @@ screen and (min-width: 64em) {
 
 .breadcrumbs {
     padding:10px 0px;
-    font-size: 16px;
+    font-size: 12px;
     font-family: Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -720,7 +720,7 @@ screen and (min-width: 64em) {
 .breadcrumbs a {
     text-decoration: none;
     color: #333;
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 
 .breadcrumbs a:hover {
