@@ -726,3 +726,9 @@ screen and (min-width: 64em) {
 .breadcrumbs a:hover {
     text-decoration: underline;
 }
+
+.rounded-pill {
+    color: #1B2C51;
+    font-weight: bold;
+    border: 1px solid #316CEC !important;
+}
