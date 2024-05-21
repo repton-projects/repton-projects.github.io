@@ -596,7 +596,7 @@ a:active {
 @media print,
 screen and (min-width:64em) {
     .banner-block.scroll-lock .left-col .content-slides-wrap .content-item {
-        min-height: 110vh;
+        padding: 5.75rem 0rem;
         height: 100%;
     }
 }
