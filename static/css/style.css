@@ -688,7 +688,7 @@ screen and (min-width: 64em) {
         flex-direction: column;
     }
 
-    .image {
+    .image-container {
         order: -1;
     }
 }
