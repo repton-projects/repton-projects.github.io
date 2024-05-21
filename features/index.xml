@@ -29,7 +29,7 @@ View DetailsDocumentsCreate, review &amp; Approve key project documents.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://repton-projects.org/features/projects/stakeholders/</guid>
-      <description>Project StakeholdersEnsure you have the right people within your teamEnsure you have the right leadershipAssign a Project Sponsor to own the project.Set up a Steering Group to provide project oversightEstablish a Change control Board to minimise risks Get Started»Ensure you have the right skillsDefine Project roles Assign Roles to Project Stakeholders Highlight missing skills using the Required Skills Matrix Get Started»Configure access rightsGrant or Revoke stakeholder permissions to specific tools or documents.</description>
+      <description>Project StakeholdersEnsure you have the right people within your teamEnsure you have the right leadershipAssign a Project Sponsor to own the project.Set up a Steering Group to provide project oversightEstablish a Change control Board to minimise risks Free Trial»Ensure you have the right skillsDefine Project roles Assign Roles to Project Stakeholders Highlight missing skills using the Required Skills Matrix Free Trial»Configure access rightsGrant or Revoke stakeholder permissions to specific tools or documents.</description>
     </item>
     
     <item>
@@ -44,15 +44,25 @@ Get Started»Manage key project elementsRisks / Issues - Ensure risks don’t
     </item>
     
     <item>
+      <title>Project Stakeholder page</title>
+      <link>http://repton-projects.org/features/workflow/phase-progression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://repton-projects.org/features/workflow/phase-progression/</guid>
+      <description>Phase ProgressionManage your project from start to finish using six configurable project phases.Start Up PhaseMaximise the return on your investments by ensuring you undertake the correct projects for yourorganisation.
+Get Started»Initiation PhaseEnsure your project has a viable Business Case before committing resources to the project.Ensure your project can be delivered on time.Prime your project to succeed by implementing tries and tested management processes.</description>
+    </item>
+    
+    <item>
       <title>Projects page</title>
       <link>http://repton-projects.org/features/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://repton-projects.org/features/projects/projects/</guid>
       <description>Project ConfigurationOnly do the things that add real value.Quickly set up your projectCreate a new project and assign a start date and you are ready to go.
-Get Started»Manage your teamAssign team members as project stakeholders.
-Get Started»Ensure you are only doing the things that add valueConfigure the required project tasks and documents.
-Get Started»</description>
+Free Trial»Manage your teamAssign team members as project stakeholders.
+Free Trial»Ensure you are only doing the things that add valueConfigure the required project tasks and documents.
+Free Trial»</description>
     </item>
     
   </channel>
