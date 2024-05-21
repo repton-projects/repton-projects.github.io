@@ -732,3 +732,7 @@ screen and (min-width: 64em) {
     font-weight: bold;
     border: 1px solid #316CEC !important;
 }
+
+.p-sub-header {
+    font-weight: bold;
+}
