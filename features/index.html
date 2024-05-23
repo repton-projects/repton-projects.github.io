@@ -121,7 +121,29 @@ style="border-bottom:5px solid #0463FA">
 </div>
 </nav>
 <main>
-  
+  <style>
+    .update-banner {
+        display: block;
+        /* position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; */
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000;
+    }
+    .update-banner a {
+        color: #721c24;
+        font-weight: bold;
+    }
+</style>
+
+<div class="update-banner" id="updateBanner">
+    New versions of this page is available. <a href="/features/index2">Click here to view other versions.</a>
+</div>
+
 <!-- Service Start -->
 <div class="container-xxl py-5">
     <div class="container">
@@ -193,6 +215,7 @@ style="border-bottom:5px solid #0463FA">
     </div>
 </div>
 <!-- Service End -->
+
 </main>
     
 <div class="container-fluid bg-dark text-light footer wow fadeIn " data-wow-delay="0.1s">
