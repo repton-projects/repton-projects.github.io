@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 08 May 2024 14:53:04 +0800</lastBuildDate><atom:link href="http://repton-projects.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Features Index</title>
-      <link>http://repton-projects.org/features/</link>
+      <link>http://repton-projects.org/features/index-bak/</link>
       <pubDate>Wed, 08 May 2024 14:53:04 +0800</pubDate>
       
-      <guid>http://repton-projects.org/features/</guid>
+      <guid>http://repton-projects.org/features/index-bak/</guid>
       <description>New versions of this page is available. Click here to view other versions.All aspects of Project Management in one placeProject on Demands&#39;s workflow and associated toolkit guides you through your project step by step.
 Projects
 ProjectsCreate, Monitor and control your projects.
@@ -45,16 +45,32 @@ Free Trial»</description>
     
     <item>
       <title>Under Construction Index page</title>
-      <link>http://repton-projects.org/features/index2/</link>
+      <link>http://repton-projects.org/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://repton-projects.org/features/index2/</guid>
-      <description>Click here to view another new version.Explore FeaturesProjectsWorkflowMonitoring and ControlProjectsCreate, Monitor and control your projects
+      <guid>http://repton-projects.org/features/</guid>
+      <description>Click here to view other version of this page.Explore FeaturesProjectsWorkflowMonitoring and ControlProjectsCreate, Monitor and control your projects
 StakeholderCollaborate with your project team
 DashboardView the current status of your project
 Phase ProgressionGuides you through six project phases
 DocumentsCreate, review &amp; Approve key project documents
 ScheduleMonitor and Control your project plans
+BudgetCreate and maintain project cost plans
+RisksIdentify, review &amp; manage key project risks</description>
+    </item>
+    
+    <item>
+      <title>Under Construction Index page</title>
+      <link>http://repton-projects.org/features/index2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://repton-projects.org/features/index2/</guid>
+      <description>Click here to view another new version.ProjectsProjectsCreate, Monitor and control your projects
+StakeholderCollaborate with your project team
+WorkflowDashboardView the current status of your project
+Phase ProgressionGuides you through six project phases
+DocumentsCreate, review &amp; Approve key project documents
+Monitoring and ControlScheduleMonitor and Control your project plans
 BudgetCreate and maintain project cost plans
 RisksIdentify, review &amp; manage key project risks</description>
     </item>
