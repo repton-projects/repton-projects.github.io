@@ -8,27 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 08 May 2024 14:53:04 +0800</lastBuildDate><atom:link href="http://repton-projects.org/features/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project Stakeholders page</title>
-      <link>http://repton-projects.org/features/projects/stakeholders/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://repton-projects.org/features/projects/stakeholders/</guid>
-      <description>Project StakeholdersEnsure you have the right people within your teamEnsure you have the right leadershipAssign a Project Sponsor to own the project.Set up a Steering Group to provide project oversightEstablish a Change control Board to minimise risks Free Trial»Ensure you have the right skillsDefine Project roles Assign Roles to Project Stakeholders Highlight missing skills using the Required Skills Matrix Free Trial»Configure access rightsGrant or Revoke stakeholder permissions to specific tools or documents.</description>
-    </item>
-    
-    <item>
-      <title>Projects page</title>
-      <link>http://repton-projects.org/features/projects/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://repton-projects.org/features/projects/projects/</guid>
-      <description>Project ConfigurationOnly do the things that add real value.Quickly set up your projectCreate a new project and assign a start date and you are ready to go.
-Free Trial»Manage your teamAssign team members as project stakeholders.
-Free Trial»Ensure you are only doing the things that add valueConfigure the required project tasks and documents.
-Free Trial»</description>
-    </item>
-    
-    <item>
       <title>Under Construction Index page</title>
       <link>http://repton-projects.org/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -42,27 +21,6 @@ View DetailsDocumentsCreate, review &amp; approve key project documents.
 View DetailsMonitoring and ControlScheduleMonitor and control your project plans.
 View DetailsBudgetCreate and maintain project cost plans.
 View DetailsRisksIdentify, review &amp; manage key project risks.</description>
-    </item>
-    
-    <item>
-      <title>Workflow Dashboard Page</title>
-      <link>http://repton-projects.org/features/workflow/dashboard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://repton-projects.org/features/workflow/dashboard/</guid>
-      <description>Monitor and control your project’s workflowReview key Risks, Issues, Assumptions, Dependencies &amp; Constraints.Monitor &amp; ControlUse the phase progression feature to track project progress.
-Get Started»Pending ActionsView and Execute your pending actions direct from the dashboard.
-Get Started»Manage key project elementsRisks / Issues - Ensure risks don’t turn into issues Constraints - Ensure you work within project constraints Dependencies - Create reliable project plans Assumptions - Continuously validate project assumptions Highlights high priority project elements for Admin Users Displays assigned project elements for Standard Users Get Started»Protect Sensitive InformationHide dashboard items with the Limited View option.</description>
-    </item>
-    
-    <item>
-      <title>Workflow Phase Progression page</title>
-      <link>http://repton-projects.org/features/workflow/phase-progression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://repton-projects.org/features/workflow/phase-progression/</guid>
-      <description>Phase ProgressionManage your project from start to finish using six configurable project phases.Start Up PhaseMaximise the return on your investments by ensuring you undertake the correct projects for yourorganisation.
-Get Started»Initiation PhaseEnsure your project has a viable Business Case before committing resources to the project.Ensure your project can be delivered on time.Prime your project to succeed by implementing tries and tested management processes.</description>
     </item>
     
   </channel>
