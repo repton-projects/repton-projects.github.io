@@ -210,7 +210,8 @@ https://templatemo.com/tm-590-topic-listing
     CUSTOM BUTTON               
   -----------------------------------------*/
   .custom-btn {
-    background: var(--custom-btn-bg-color);
+    /* background: var(--custom-btn-bg-color); */
+    background: #0463fa;
     border: 2px solid transparent;
     border-radius: var(--border-radius-large);
     color: var(--white-color);
