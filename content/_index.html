@@ -97,19 +97,28 @@ description: "Landing page"
             </div>
 
 
-            <div class="right-col" data-sticky-container="">
+            <div class="right-col mobile-only" data-sticky-container="" style="display:none">
                 <div class="image-slides-wrap sticky-element banner-image-slider slick-initialized slick-slider"
                     style="position: fixed; width: 952px; left: 952px; top: -1092px;">
                     <div class="slick-list draggable">
                         <div class="slick-track" style="opacity: 1; width: 1904px;">
-                            <div class="image-slide slick-slide slick-current slick-active mobile-only" id="main-img-container" style="display: none;"
+                            <div class="image-slide slick-slide slick-current slick-active" id="main-img-container"
                                 data-slick-index="0" aria-hidden="false">
                                 <picture>
                                     <img id="main-img" decoding="async" fetchpriority="high" src="/img/main.jpg" alt="">
                                 </picture>
                             </div>
-                            <div class="image-slide slick-slide slick-current slick-active desktop-only" id="main-img-container" style="display: none;padding-top: 5%;padding-right: 60%;"
-                                data-slick-index="0" aria-hidden="false">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-col desktop-only" data-sticky-container="" style="display:none">
+                <div class="image-slides-wrap sticky-element banner-image-slider slick-initialized slick-slider">
+                    <div class="slick-list draggable">
+                        <div class="slick-track" style="opacity: 1;">
+                            <div class="image-slide slick-slide slick-current slick-active" id="main-img-container"
+                                data-slick-index="0" aria-hidden="false" style="padding-left:5%;padding-bottom:5%;padding-right:5%;padding-top:15%">
                                 <video controls width="100%" poster="/img/video-poster3.png" style="border: double #3865fc 3px;border-radius: 10px;"> 
                                     <source src="/img/Introduction.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
