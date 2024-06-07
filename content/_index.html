@@ -8,7 +8,7 @@ description: "Landing page"
         <div class="section-inner">
             <div class="left-col px-4 px-lg-5">
                 <div class="content-slides-wrap  lock-slider " >
-                    <div class="content-item grid-container px-4 px-lg-5" >
+                    <div class="content-item grid-container px-4 px-lg-5 pb-5" >
                         <div id="content1" data-wow-duration="1s" data-wow-delay="1s">
                             <h1>Welcome to <br />Repton Projects</h1>
                             <div class="mt-5 mb-3">
@@ -21,16 +21,20 @@ description: "Landing page"
                             </div>
 
 
-                            <div class="row">
+                            <div class="row mobile-only" style="display: none;">
                                 <div class="mt-3 main-red-button">
-                                    <a class="btn py-3 px-5 mt-3 btn-primary btn-shadow" href="">Book
+                                    <!-- <a class="btn py-3 px-5 mt-3 btn-primary btn-shadow" href="">Book
                                         a free consultation <span
-                                        style="font-size:1.5em;">»</span></a>
+                                        style="font-size:1.5em;">»</span></a> -->
+                                        <video controls width="100%" poster="/img/video-poster2.png" style="border: double #3865fc 3px;border-radius: 10px;"> 
+                                            <source src="/img/Introduction.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="content-item  px-4 px-lg-5 py-5" >
+                    <div class="content-item  px-4 px-lg-5 py-0 pb-2" >
                         <div data-wow-duration="1s" data-wow-delay="1s">
                             <h1>Our Services</h1>
                             <div class="mt-5 mb-5">
@@ -66,7 +70,7 @@ description: "Landing page"
                             </div>
                         </div>
                     </div>
-                    <div class="content-item px-4 px-lg-5 py-5">
+                    <div class="content-item px-4 px-lg-5 py-0 pb-2">
                         <div data-wow-duration="1s" data-wow-delay="1s">
                             <h1>Our Core Values</h1>
                             <div class="mt-5 mb-3">
@@ -93,7 +97,7 @@ description: "Landing page"
             </div>
 
 
-            <div class="right-col" data-sticky-container="">
+            <div class="right-col mobile-only" data-sticky-container="">
                 <div class="image-slides-wrap sticky-element banner-image-slider slick-initialized slick-slider"
                     style="position: fixed; width: 952px; left: 952px; top: -1092px;">
                     <div class="slick-list draggable">
@@ -103,6 +107,22 @@ description: "Landing page"
                                 <picture>
                                     <img id="main-img" decoding="async" fetchpriority="high" src="/img/main.jpg" alt="">
                                 </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-col desktop-only" data-sticky-container="" style="display:none">
+                <div class="image-slides-wrap sticky-element banner-image-slider slick-initialized slick-slider">
+                    <div class="slick-list draggable">
+                        <div class="slick-track" style="opacity: 1;">
+                            <div class="image-slide slick-slide slick-current slick-active" id="main-img-container"
+                                data-slick-index="0" aria-hidden="false" style="padding-left:5%;padding-bottom:5%;padding-right:5%;padding-top:15%">
+                                <video controls width="100%" poster="/img/video-poster3.png" style="border: double #3865fc 3px;border-radius: 10px;"> 
+                                    <source src="/img/Introduction.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
                         </div>
                     </div>

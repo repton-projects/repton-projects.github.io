@@ -1,76 +1,431 @@
 ---
-title: "Features Index"
-date: 2024-05-08T14:53:04+08:00
+title: "Under Construction Index page"
+description: "Under Construction Index page"
 ---
+<style>
+    .update-banner {
+        display: block;
+        /* position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%; */
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000;
+    }
+    .update-banner a {
+        color: #721c24;
+        font-weight: bold;
+    }
+</style>
+<link href="/css/topic-listing.css" rel="stylesheet">
 
-<!-- Service Start -->
-<div class="container-xxl py-5">
+<!-- <div class="update-banner" id="updateBanner">
+    <a href="/features/index3">Click here to view another new version.</a>
+</div> -->
+
+<section class="explore-section section-padding" id="section_2">
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="mb-4">Explore Features</h2>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects-tab-pane" type="button" role="tab" aria-controls="projects-tab-pane" aria-selected="true">Projects</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="workflow-tab" data-bs-toggle="tab" data-bs-target="#workflow-tab-pane" type="button" role="tab" aria-controls="workflow-tab-pane" aria-selected="false">Workflow</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="monitoring-tab" data-bs-toggle="tab" data-bs-target="#monitoring-tab-pane" type="button" role="tab" aria-controls="monitoring-tab-pane" aria-selected="false">Monitoring and Control</button>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+
     <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
-            <h1>All aspects of Project Management in one place</h1>
-            <p>Project on Demands's workflow and associated toolkit guides you through your project step by step.</p>
-            
-        </div>
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <p class="d-inline-block border rounded-pill py-1 px-4">Projects</p>
-        </div>
-        <div class="row g-4">
-            <div class="offset-lg-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item bg-light rounded h-100 p-5">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fa fa-list text-primary fs-4"></i>
+        <div class="row">
+            <div class="col-12">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="projects-tab-pane" role="tabpanel" aria-labelledby="projects-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h2 class="mb-4">Projects</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12 mb-4">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="/features/projects/projects">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Projects</h5>
+                                                <p class="mb-0">Create, monitor and control your projects.</p>
+                                            </div>
+                                        </div>
+                                        <!-- <img src="/img/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt=""> -->
+                                        <img src="/img/topics2/projects.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="/features/projects/projects" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12 mb-4">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="/features/projects/stakeholders">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Stakeholder</h5>
+                                                <p class="mb-0">Collaborate with your project team.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/stakeholders.png" class="custom-block-image img-fluid" alt="">
+                                        <a href="/features/projects/stakeholders" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <h2 class="mb-4">Workflow</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="/features/workflow/dashboard">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Dashboard</h5>
+                                                <p class="mb-0">View the current status of your project.</p>
+                                            </div>
+                                        </div>
+                                        <!-- <img src="/img/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt=""> -->
+                                        <img src="/img/topics2/dashboard.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="/features/workflow/dashboard" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="/features/workflow/phase-progression">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Phase Progression</h5>
+                                                <p class="mb-0">Guides you through six project phases.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/phase-progression.png" class="custom-block-image img-fluid" alt="">
+                                        <a href="/features/workflow/phase-progression" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Documents</h5>
+                                                <p class="mb-0">Create, review & approve key project documents.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/documents.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <h2 class="mb-4">Monitoring and Control</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Schedule</h5>
+                                                <p class="mb-0">Monitor and control your project plans.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/schedule.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Budget</h5>
+                                                <p class="mb-0">Create and maintain project cost plans.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/budget.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Risks</h5>
+                                                <p class="mb-0">Identify, review & manage key project risks.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/risks.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Issues</h5>
+                                                <p class="mb-0">Manage issues as they arise to ensure they do not escalate.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/issues.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Actions</h5>
+                                                <p class="mb-0">Create, review & approve key project documents.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/actions.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Assumptions</h5>
+                                                <p class="mb-0">Record and validate key project assumptions.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/assumptions.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Constraints</h5>
+                                                <p class="mb-0">Ensure you are working within your constraints.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/constraints.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Dependencies</h5>
+                                                <p class="mb-0">Identify and manage project dependencies.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/dependencies.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Decisions</h5>
+                                                <p class="mb-0">Maintain an audit trail of key decisions.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/decisions.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <h2 class="mb-4">Management Processes</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Quality</h5>
+                                                <p class="mb-0">Prime your projects to succeed from the start.</p>
+                                            </div>
+                                        </div>
+                                        <!-- <img src="/img/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt=""> -->
+                                        <img src="/img/topics2/quality.png" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Changes</h5>
+                                                <p class="mb-0">Ensure scope changes are managed effectively.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/changes.png" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Lessons</h5>
+                                                <p class="mb-0">Maintain a knowledge base across all projects.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/lessons.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <h2 class="mb-4">Requirements & Design</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Requirements</h5>
+                                                <p class="mb-0">Gather and record your project's requirements.</p>
+                                            </div>
+                                        </div>
+                                        <!-- <img src="/img/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt=""> -->
+                                        <img src="/img/topics2/requirements.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Solution Design</h5>
+                                                <p class="mb-0">Produce a solution design to meet your project's requirements.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/solution-design3.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="topics-detail.html">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Traceability</h5>
+                                                <p class="mb-0">Ensure the design meets the requirements.</p>
+                                            </div>
+                                        </div>
+                                        <img src="/img/topics2/traceability.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <h2 class="mb-4">Reporting</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3 col-md-6 col-12 mb-4">
+                                <div class="custom-block bg-white shadow-lg">
+                                    <a href="/features/projects/projects">
+                                        <div class="d-flex">
+                                            <div>
+                                                <h5 class="mb-2">Status Reports</h5>
+                                                <p class="mb-0">Auto generate and publish status reports.</p>
+                                            </div>
+                                        </div>
+                                        <!-- <img src="/img/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt=""> -->
+                                        <img src="/img/topics2/status-reports.webp" class="custom-block-image img-fluid" alt="">
+                                        <a href="#" class="btn custom-btn mt-2 mt-lg-3">View Details</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h4 class="mb-3">Projects</h4>
-                    <p class="mb-4">Create, Monitor and control your projects.</p>
-                    <a class="btn" href="/features/projects/projects"><i class="fa fa-plus text-primary me-3"></i>View Details</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item bg-light rounded h-100 p-5">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fa fa-handshake text-primary fs-4"></i>
-                    </div>
-                    <h4 class="mb-3">Stakeholders</h4>
-                    <p class="mb-4">Collaborate with your project team.</p>
-                    <a class="btn" href="/features/projects/stakeholders"><i class="fa fa-plus text-primary me-3"></i>View Details</a>
-                </div>
-            </div>
-        </div>
-        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
-            <p class="d-inline-block border rounded-pill py-1 px-4">Workflow</p>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item bg-light rounded h-100 p-5">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fa fa-table text-primary fs-4"></i>
-                    </div>
-                    <h4 class="mb-3">Dashboard</h4>
-                    <p class="mb-4">View the current status of your project.</p>
-                    <a class="btn" href="/features/workflow/dashboard"><i class="fa fa-plus text-primary me-3"></i>View Details</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item bg-light rounded h-100 p-5">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fa fa-spinner text-primary fs-4"></i>
-                    </div>
-                    <h4 class="mb-3">Phase Progression</h4>
-                    <p class="mb-4">Guides you through six project phases.</p>
-                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>View Details</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item bg-light rounded h-100 p-5">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
-                        <i class="fa fa-list text-primary fs-4"></i>
-                    </div>
-                    <h4 class="mb-3">Documents</h4>
-                    <p class="mb-4">Create, review & Approve key project documents.</p>
-                    <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>View Details</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Service End -->
+</section>
