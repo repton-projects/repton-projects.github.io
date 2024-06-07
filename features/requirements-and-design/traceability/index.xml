@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Requirements and Design: Traceability on Repton Projects</title>
+    <link>http://repton-projects.org/features/requirements-and-design/traceability/</link>
+    <description>Recent content in Requirements and Design: Traceability on Repton Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://repton-projects.org/features/requirements-and-design/traceability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Requirements and Design: Traceability</title>
+      <link>http://repton-projects.org/features/requirements-and-design/traceability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://repton-projects.org/features/requirements-and-design/traceability/</guid>
+      <description>Design SpecificationUsing Project on Demands&#39;s Design Specification and Traceability tools you can ensure that your Design Specification addresses all the project&#39;s requirementsAvoid costly omissionsUse Project on Demand&#39;s traceability tool to easily ensure that each design element is aligned to individual requirements.
+Free Trial»Import design elementsImport design elements from similar project&#39;s to save time and effort.
+Free Trial»</description>
+    </item>
+    
+  </channel>
+</rss>

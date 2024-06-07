@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management Processes: Changes on Repton Projects</title>
+    <link>http://repton-projects.org/features/management-processes/changes/</link>
+    <description>Recent content in Management Processes: Changes on Repton Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://repton-projects.org/features/management-processes/changes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Management Processes: Changes</title>
+      <link>http://repton-projects.org/features/management-processes/changes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://repton-projects.org/features/management-processes/changes/</guid>
+      <description>Change ManagementManage changes to your project in a controlled and coordinated way.Avoid Scope CreepUse the Change Management tool to ensure you only implement the necessary changes to your project.
+Free Trial»Impact AssessmentJustify each change request by performing an impact assessment in terms of time, cost and quality.
+Free Trial»Make better decisionsPresent change requests to the Change Control Board or Sponsor for their approval or rejection.</description>
+    </item>
+    
+  </channel>
+</rss>

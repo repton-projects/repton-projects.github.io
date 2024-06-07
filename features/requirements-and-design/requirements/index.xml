@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Requirements and Design: Requirements on Repton Projects</title>
+    <link>http://repton-projects.org/features/requirements-and-design/requirements/</link>
+    <description>Recent content in Requirements and Design: Requirements on Repton Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://repton-projects.org/features/requirements-and-design/requirements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Requirements and Design: Requirements</title>
+      <link>http://repton-projects.org/features/requirements-and-design/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://repton-projects.org/features/requirements-and-design/requirements/</guid>
+      <description>Project RequirementsEnsure your project delivers exactly what your customer requires.Create a Structured Requirements SpecificationStructure your project&#39;s requirements using parent and child relationship
+Free Trial»Drag and DropUtilise drag and drop functionality to easily reorder and structure your project&#39;s requirements.
+Free Trial»Categorise and PrioritiseEnsure that you gather both functional and non-functional requirements for your project.Use MoSCoW to prioritise your project&#39;s requirements.Free Trial»Upload AttachmentsEnhance individual requirements by uploading related information.</description>
+    </item>
+    
+  </channel>
+</rss>
