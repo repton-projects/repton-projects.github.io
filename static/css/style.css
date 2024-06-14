@@ -757,5 +757,5 @@ screen and (min-width: 64em) {
 
 .training-table th,
 .training-table td {
-    vertical-align: middle;
+    vertical-align: top;
 }
