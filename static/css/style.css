@@ -1304,3 +1304,26 @@ select.form-control[multiple] {
     height: auto
 }
 /* End of Contact Us Form */
+
+.training-header {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.training-header h1 {
+    font-size: 2.5rem;
+}
+
+.training-content {
+    padding: 2rem 1rem;
+}
+
+.training-course-table {
+    margin-top: 2rem;
+}
+
+.training-table th,
+.training-table td {
+    vertical-align: top;
+}
