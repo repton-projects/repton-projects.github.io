@@ -120,115 +120,130 @@ style="border-bottom:5px solid #0463FA">
 </div>
 </nav>
 <main>
-  <!-- Page Header Start -->
+  
 <div class="container-fluid page-header mb-1 wow fadeIn" data-wow-delay="0.1s" style="background-color: #f0f0f0;">
     <div class="container pt-5 pb-3">
         <h1 class="display-3 mb-3 animated slideInDown">Contact Us</h1>
+        <p class="lead ">Whether you have questions about our products, need assistance, or simply want to provide feedback, our team is ready to help.<p>
     </div>
     <!-- <div class="container breadcrumbs" id="breadcrumbs"></div> -->
 </div>
 
-<!-- Page Header End -->
-
-<section class="Material-contact-section section-padding section-dark ">
+<div class="training-content">
     <div class="container">
         <div class="row">
-            <!-- Section Titile -->
-            <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                <h1 class="section-title">It's Good to talk!</h1>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Section Titile -->
-            <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-              <p>If you need any help just let us know.</p>
-
-              <div class="find-widget mt-4">
-                <h5>Support hours: </h5> <p>9am to 5pm (UK time)</p>
-              </div>
-              <div class="find-widget mt-4">
-                <h5>Email us at: </h5>
-                <p><a href="mailto:support@reptonprojects.com">support@reptonprojects.com</a></p>
-              </div>
-              <div class="find-widget mt-4">
-                <h5>Talk to a Consultant:  </h5>
-                <p><a href="#">+44 (0) 115 666 7441</a></p>
-              </div>
-              
-              <div class="find-widget mt-4">
-                <h5>Address:  </h5>
-                <p>
-                    Sovereign House<br/>
-                    184 Nottingham Road,<br/>
-                    Nottingham<br/>
-                    NG7 7BA<br/>
-                    UK
-                </p>
-              </div>
-            </div>
-            <!-- contact form -->
-            <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
-                <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
-                    <!-- Name -->
-                    <div class="form-group label-floating">
-                      <label class="control-label" for="name">Name</label>
-                      <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
-                      <div class="help-block with-errors"></div>
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="mb-4">Have Questions? Reach out and say hello</h1>
+                <p class="mb-4">Simply fill out the form below, and a representative will reach out to you shortly.</p>
+                <div class="bg-light rounded d-flex align-items-center p-3 mb-4">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                        <i class="fa fa-clock text-primary"></i>
                     </div>
-                    <!-- Company -->
-                    <div class="form-group label-floating">
-                        <label class="control-label">Company</label>
-                        <input class="form-control" id="company" type="text" name="company" required data-error="Please enter your Company Name">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    <!-- email -->
-                    <div class="form-group label-floating">
-                      <label class="control-label" for="email">Email</label>
-                      <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
-                      <div class="help-block with-errors"></div>
+                    <div class="ms-4">
+                        <p class="mb-2">Support hours</p>
+                        <h5 class="mb-0">9am to 5pm (UK time)</h5>
                     </div>
+                </div>
+                <div class="bg-light rounded d-flex align-items-center p-3 mb-4">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                        <i class="fa fa-envelope text-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                        <p class="mb-2">Email us at</p>
+                        <h5 class="mb-0">support@reptonprojects.com</h5>
+                    </div>
+                </div>
+                <div class="bg-light rounded d-flex align-items-center p-3 mb-4">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                        <p class="mb-2">Talk to a Consultant</p>
+                        <h5 class="mb-0">+44 (0) 115 666 7441</h5>
+                    </div>
+                </div>
+                <div class="bg-light rounded d-flex align-items-center p-3 mb-4">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+                        <i class="fa fa-location-arrow text-primary"></i>
+                    </div>
+                    <div class="ms-4">
+                        <p class="mb-2">Address</p>
+                        <h5 class="mb-0">Sovereign House<br/>184 Nottingham Road,<br/>Nottingham<br/>NG7 7BA<br/>UK</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 wow fadeIn" data-wow-delay="0.1s">
+                <div class="bg-light rounded p-5">
+                    <h4 class="mb-4 d-inline-block border rounded-pill py-1 px-4">Contact Us Form</h4>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Test">
+                                    <label for="name">Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="company" placeholder="Company*">
+                                    <label for="company">Company</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Email*">
+                                    <label for="email">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="phone" placeholder="Telephone*">
+                                    <label for="phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- <div class="form-floating">
+                                    <input type="text" class="form-control" id="role" placeholder="Your Role">
+                                    <label for="role">Your Role</label>
+                                </div> -->
+                                <div class="form-floating">
+                                    <input type="number" placeholder="Team Size" class="form-control" id="teamsize" name="teamsize" >
+                                    <label for="phone">Team Size</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Type Your Message/Feedback here...*" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <!-- Message -->
+                            <div class="form-group label-floating">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="checkInterested"> I'm interested in  free personalised demonstration.
+                                    </label>
+                                </div>
+                            </div>
 
-                    <div class="row g-1">
-                        <div class="col">
-                            <div class="form-group label-floating">
-                                <label class="control-label" for="email">Telephone</label>
-                                <input class="form-control" id="telephone" type="text" name="telephone" required data-error="Please enter your telephone number">
-                                <div class="help-block with-errors"></div>
-                              </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-group label-floating">
-                                <label class="control-label" for="email">Team Size</label>
-                                <input type="number" class="form-control" id="teamsize" name="teamsize" required="" data-gtm-form-interact-field-id="0" data-error="Please a valid team size">
-                                <div class="help-block with-errors"></div>
+                            <div style="text-align: center; margin-top:20px;" id="html_element"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-ispxgij1k87j" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lf-z2wpAAAAAAfA9r1k3yBshVfXfpAJE3AmGRNH&amp;co=aHR0cHM6Ly93d3cucmVwdG9ucHJvamVjdHMuY29tOjQ0Mw..&amp;hl=en&amp;v=TqxSU0dsOd2Q9IbI7CpFnJLD&amp;size=normal&amp;cb=xpr1g2mwqos"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                            <!-- Form Submit -->                          
+                            
+                            <br/>&nbsp;
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
-                    </div>
-                    
-                    <!-- Message -->
-                    <div class="form-group label-floating">
-                        <label for="message" class="control-label">Message</label>
-                        <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
-                        <div class="help-block with-errors"></div>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="checkInterested"> I'm interested in  free personalised demonstration.
-                            </label>
-                        </div>
-                    </div>
-
-                    <div style="text-align: center; margin-top:20px;" id="html_element"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-ispxgij1k87j" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lf-z2wpAAAAAAfA9r1k3yBshVfXfpAJE3AmGRNH&amp;co=aHR0cHM6Ly93d3cucmVwdG9ucHJvamVjdHMuY29tOjQ0Mw..&amp;hl=en&amp;v=TqxSU0dsOd2Q9IbI7CpFnJLD&amp;size=normal&amp;cb=xpr1g2mwqos"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-                    <!-- Form Submit -->
-                    <div class="form-submit mt-5 text-end " >
-                        <button class="btn btn-common btn-primary rounded-0" type="submit" id="form-submit" ><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
-                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                        <div class="clearfix"></div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
+        
+        
     </div>
-  </section>
+</div>
+
+
 </main>
     
 <div class="container-fluid bg-dark text-light footer wow fadeIn " data-wow-delay="0.1s">
