@@ -5,6 +5,9 @@
     {{ partial "header.html" . -}}
     <main>
       {{- block "main" . }}{{- end -}}
+      {{ if in .RelPermalink "/features/" }}
+        {{ partial "request-demo-link.html" . -}}
+      {{ end }}
     </main>
     {{ partial "footer.html" . -}}
   </body>
