@@ -217,6 +217,24 @@ style="border-bottom:5px solid #0463FA">
 <script src="/js/main.js"></script>
 <script src="/js/custom.js"></script>
 <script>
+    function adjustFormBgClass() {
+      var elements = document.getElementsByClassName('responsive-form-padding');
+      for (var i = 0; i < elements.length; i++) {
+        if (window.innerWidth >= 768) { 
+          elements[i].classList.add('p-5');
+          elements[i].classList.remove('p-3');
+        } else { 
+            elements[i].classList.add('p-3');
+            elements[i].classList.remove('p-5');
+        }
+      }
+
+    
+    adjustFormBgClass();
+
+    
+    window.addEventListener('resize', adjustFormBgClass);
+
     (function ($) {
         
         function calcMargins(anchor, wrap) {
