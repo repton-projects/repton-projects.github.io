@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Take The Tour on Repton Projects</title>
+    <link>http://repton-projects.org/tour/</link>
+    <description>Recent content in Take The Tour on Repton Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://repton-projects.org/tour/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Take The Tour</title>
+      <link>http://repton-projects.org/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://repton-projects.org/tour/</guid>
+      <description>Discover: Repton Project on DemandProject on Demand is a full lifecycle Project Management toolset which comprises collaborative workflow management with all the tools, management processes and information that you need to facilitate a successful project outcome.Your browser does not support the video tag.</description>
+    </item>
+    
+  </channel>
+</rss>
