@@ -3,23 +3,23 @@ languageCode = 'en-us'
 title = 'Repton Projects'
 
 [permalinks]
-  blog = "/:title/"
+  blog = "/v2/:title/"
 
 [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = "/v2/"
     weight = 1
 
 [[menu.main]]
     identifier = "why-project-on-demand"
     name = "Why Project on Demand?"
-    url = "/why-project-on-demand"
+    url = "/v2/why-project-on-demand"
     weight = 2
 
 [[menu.main]]
     identifier = "features"
     name = "Explore Features"
-    url = "/features"
+    url = "/v2/features"
     weight = 3
 

@@ -378,14 +378,14 @@
 
     // Function to generate breadcrumbs
     function generateBreadcrumbs() {
-      var pathArray = window.location.pathname.split("/");
+      var pathArray = window.location.pathname.split("/v2/");
       var breadcrumbs = [];
-      breadcrumbs.push('<a href="/">Home</a>');
+      breadcrumbs.push('<a href="/v2/">Home</a>');
       for (var i = 1; i < pathArray.length; i++) {
         if (pathArray[i].trim() == "") {
           continue;
         }
-        if (pathArray[i]) var urlSegment = pathArray.slice(0, i + 1).join("/");
+        if (pathArray[i]) var urlSegment = pathArray.slice(0, i + 1).join("/v2/");
         var name = pathArray[i].replace(/-/g, " ");
         breadcrumbs.push('<a href="' + urlSegment + '">' + name + "</a>");
       }
