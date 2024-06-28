@@ -390,8 +390,8 @@
         breadcrumbs.push('<a href="' + urlSegment + '">' + name + "</a>");
       }
 
-      document.getElementById("breadcrumbs").innerHTML =
-        breadcrumbs.join(" › ");
+      // document.getElementById("breadcrumbs").innerHTML =
+      //   breadcrumbs.join(" › ");
     }
     generateBreadcrumbs();
   })(jQuery),

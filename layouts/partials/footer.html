@@ -35,6 +35,25 @@
 <script src="/js/main.js"></script>
 <script src="/js/custom.js"></script>
 <script>
+    function adjustFormBgClass() {
+        var elements = document.getElementsByClassName('responsive-form-padding');
+        for (var i = 0; i < elements.length; i++) {
+            if (window.innerWidth >= 768) { // Tablets and desktops
+                elements[i].classList.add('p-5');
+                elements[i].classList.remove('p-3');
+            } else { // Mobile devices
+                elements[i].classList.add('p-3');
+                elements[i].classList.remove('p-5');
+            }
+        }
+    }
+
+    // Adjust class on page load
+    adjustFormBgClass();
+
+    // Adjust class on window resize
+    window.addEventListener('resize', adjustFormBgClass);
+    
     (function ($) {
         // Calculate  Margins for Left Column
         function calcMargins(anchor, wrap) {
